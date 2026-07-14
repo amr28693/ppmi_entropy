@@ -123,8 +123,7 @@ amplification assay status) is intended for future work.
 Data used in the preparation of this code were obtained on 2026-06-23 from the
 Parkinson's Precision Medicine Initiative (PPMI; RRID:SCR_006431),
 <https://www.ppmi-info.org>. PPMI, a public-private partnership, is funded by the
-Michael J. Fox Foundation for Parkinson's Research and funding partners (listed
-at <https://www.ppmi-info.org>). Use of PPMI data is governed by the PPMI Data
+Michael J. Fox Foundation for Parkinson's Research and funding partners. Use of PPMI data is governed by the PPMI Data
 Use Agreement, and the data themselves are not included in this repository.
 
 ## License
