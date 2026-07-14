@@ -19,7 +19,7 @@ pip install numpy scipy pandas matplotlib
 
 The PPMI data are not redistributed in this repository. Download them from the
 PPMI portal (<https://www.ppmi-info.org/access-data-specimens/download-data>)
-under an executed Data Use Agreement and place the CSV files in a `data/`
+(Data Use Agreement required) and place the CSV files in a `data/`
 directory alongside the scripts. Files are located by name pattern; the
 following (as downloaded on 2026-06-23) are used:
 
@@ -116,7 +116,7 @@ permutation p-value is the add-one estimator, (b + 1) / (m + 1).
 
 This repository covers the genotype analysis (GBA1-PD vs. sporadic PD) reported
 in the preprint. Molecular stratification (for example, by alpha-synuclein seed
-amplification assay status) is separate work and is out of scope here.
+amplification assay status) is intended for future work.
 
 ## Data provenance and acknowledgment
 
