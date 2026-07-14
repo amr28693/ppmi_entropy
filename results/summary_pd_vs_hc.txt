@@ -1,0 +1,47 @@
+======================================================================
+PPMI ENTROPY DIVERGENCE ANALYSIS — PD vs Healthy Controls
+======================================================================
+  Time points: 24 (0-168 months)
+  Bonferroni alpha (3 tests): 0.0167
+
+DOMAIN-LEVEL RESULTS:
+--------------------------------------------------
+  MDS-UPDRS Part I (Non-Motor):
+    IAD observed:  126.0770
+    IAD null:      12.9337 +/- 3.8449
+    p = 0.0002 ***
+    sigma: 29.4
+
+  MDS-UPDRS Part II (Motor ADL):
+    IAD observed:  235.7003
+    IAD null:      14.4283 +/- 4.5291
+    p = 0.0002 ***
+    sigma: 48.9
+
+  MDS-UPDRS Part III (Motor Exam):
+    IAD observed:  199.2765
+    IAD null:      12.5674 +/- 3.9008
+    p = 0.0002 ***
+    sigma: 47.9
+
+OMNIBUS:
+--------------------------------------------------
+  Total IAD:     561.0538
+  Total null:    39.9294 +/- 10.2352
+  p = 0.0002
+  sigma from null: 50.9
+
+CROSS-VALIDATION LOGIC:
+--------------------------------------------------
+  Part IV excluded: HCs do not receive levodopa and have
+  insufficient motor complications assessments (n < min_n).
+  Part IV is a PD-specific domain by instrument design.
+
+  CONFIRMED: Part III (motor examination) diverges between
+  PD and Healthy Controls.
+
+  In H1, Part III is null (p = 0.339) for GBA1 vs sporadic PD.
+  The same framework detects Part III divergence when the groups
+  differ on motor examination (PD vs HC) and correctly finds no
+  difference when they do not (GBA1 vs sporadic). The Part III
+  null in H1 is not a method artifact.

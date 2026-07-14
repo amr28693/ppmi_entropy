@@ -1,0 +1,21 @@
+==============================================================================
+ENTROPY vs PART-SCORE (SUM) DIVERGENCE  —  H1: GBA1-PD vs Sporadic PD
+==============================================================================
+  n_perms=5000  min_n=15  seed=42  Bonferroni alpha (4 tests)=0.0125
+  Identical data and permutations; metrics differ only in the per-item statistic.
+  Entropy IAD is in bits; Score IAD in score-points -- compare p and sigma
+  across metrics, not raw IAD magnitude.
+
+  Part           |    Ent IAD     Ent p Ent sig |  Score IAD   Score p Scr sig | Concordance 
+  -------------------------------------------------------------------------------------------
+  Part I         |     18.561    0.0142     2.7 |     19.287    0.0002     5.8 | SCORE ONLY  
+  Part II        |     23.357    0.0034     3.7 |     29.011    0.0002     8.3 | both detect 
+  Part III       |      6.911    0.3387     0.3 |      7.019    0.1334     1.1 | neither     
+  Part IV        |     46.903    0.0002     6.9 |     33.676    0.0002     9.7 | both detect 
+  -------------------------------------------------------------------------------------------
+  OMNIBUS/total  |               0.0006     5.3 |               0.0002     9.9 |
+
+INTERPRETATION (at Bonferroni alpha = 0.0125):
+  Score detects, entropy does NOT: Part I
+    -> the group difference here is in central tendency, not distribution shape.
+==============================================================================

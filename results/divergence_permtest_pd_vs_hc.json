@@ -1,0 +1,121 @@
+{
+  "Part_III_IAD": {
+    "observed": 199.27651442440074,
+    "null_mean": 12.5673554897272,
+    "null_std": 3.900847800003482,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_III_mean_sep": {
+    "observed": 1.179353550161866,
+    "null_mean": 0.04963391506761086,
+    "null_std": 0.03708193886891983,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_III_peak_A": {
+    "observed": 132.0,
+    "null_mean": 131.9064,
+    "null_std": 2.40417117527018,
+    "p_value": 0.9984003199360127,
+    "n_perms": 5000
+  },
+  "Part_III_peak_B": {
+    "observed": 120.0,
+    "null_mean": 114.852,
+    "null_std": 27.21662168602121,
+    "p_value": 0.6666666666666666,
+    "n_perms": 5000
+  },
+  "Part_III_peak_diff": {
+    "observed": 12.0,
+    "null_mean": 20.3472,
+    "null_std": 25.031553131198233,
+    "p_value": 0.5416916616676665,
+    "n_perms": 5000
+  },
+  "Part_II_IAD": {
+    "observed": 235.70026470731312,
+    "null_mean": 14.428324220916728,
+    "null_std": 4.52909618326113,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_II_mean_sep": {
+    "observed": 1.4000115402835949,
+    "null_mean": 0.04324218195286769,
+    "null_std": 0.05013064324237169,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_II_peak_A": {
+    "observed": 168.0,
+    "null_mean": 89.8176,
+    "null_std": 10.441165176358432,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_II_peak_B": {
+    "observed": 102.0,
+    "null_mean": 104.5296,
+    "null_std": 26.445678736610258,
+    "p_value": 0.5940811837632474,
+    "n_perms": 5000
+  },
+  "Part_II_peak_diff": {
+    "observed": 66.0,
+    "null_mean": 25.1928,
+    "null_std": 21.45658938787803,
+    "p_value": 0.08038392321535692,
+    "n_perms": 5000
+  },
+  "Part_I_IAD": {
+    "observed": 126.07700361922046,
+    "null_mean": 12.933684869976679,
+    "null_std": 3.8448926854594245,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_I_mean_sep": {
+    "observed": 0.7411695362828664,
+    "null_mean": 0.041812186286517394,
+    "null_std": 0.043273884289393647,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_I_peak_A": {
+    "observed": 168.0,
+    "null_mean": 76.7988,
+    "null_std": 4.198799657044856,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "Part_I_peak_B": {
+    "observed": 168.0,
+    "null_mean": 89.298,
+    "null_std": 26.827523105944763,
+    "p_value": 0.01919616076784643,
+    "n_perms": 5000
+  },
+  "Part_I_peak_diff": {
+    "observed": 0.0,
+    "null_mean": 16.4688,
+    "null_std": 25.26311593133357,
+    "p_value": 1.0,
+    "n_perms": 5000
+  },
+  "omnibus_IAD": {
+    "observed": 187.0179275836448,
+    "null_mean": 13.309788193540202,
+    "null_std": 3.411726776613154,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  },
+  "total_IAD": {
+    "observed": 561.0537827509344,
+    "null_mean": 39.92936458062061,
+    "null_std": 10.235180329839462,
+    "p_value": 0.0001999600079984003,
+    "n_perms": 5000
+  }
+}

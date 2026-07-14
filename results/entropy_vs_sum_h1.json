@@ -1,0 +1,57 @@
+{
+  "analysis": "h1",
+  "comparison": "shannon_entropy_vs_mean_item_score",
+  "n_perms": 5000,
+  "min_n": 15,
+  "seed": 42,
+  "bonferroni_alpha_4tests": 0.0125,
+  "note": "Score = mean item score (first-moment / Part-sum analog). Same data, inclusion rule, and permutation shuffles as the entropy test. Compare p-values and sigma across metrics; IAD units differ (bits vs score points).",
+  "parts": [
+    {
+      "part": "Part I",
+      "entropy_IAD": 18.56133848069154,
+      "entropy_p": 0.014197160567886422,
+      "entropy_sigma": 2.749595675048754,
+      "score_IAD": 19.287128841403927,
+      "score_p": 0.0001999600079984003,
+      "score_sigma": 5.818296717976202,
+      "verdict": "SCORE ONLY"
+    },
+    {
+      "part": "Part II",
+      "entropy_IAD": 23.35700229222691,
+      "entropy_p": 0.0033993201359728054,
+      "entropy_sigma": 3.6904343648383446,
+      "score_IAD": 29.010857485858672,
+      "score_p": 0.0001999600079984003,
+      "score_sigma": 8.263935575043353,
+      "verdict": "both detect"
+    },
+    {
+      "part": "Part III",
+      "entropy_IAD": 6.911186937112335,
+      "entropy_p": 0.33873225354929015,
+      "entropy_sigma": 0.30054621311509094,
+      "score_IAD": 7.018819941571169,
+      "score_p": 0.133373325334933,
+      "score_sigma": 1.0615128546316308,
+      "verdict": "neither"
+    },
+    {
+      "part": "Part IV",
+      "entropy_IAD": 46.90250860834213,
+      "entropy_p": 0.0001999600079984003,
+      "entropy_sigma": 6.924860287604718,
+      "score_IAD": 33.675911074337606,
+      "score_p": 0.0001999600079984003,
+      "score_sigma": 9.674732845391338,
+      "verdict": "both detect"
+    }
+  ],
+  "omnibus": {
+    "entropy_p": 0.0005998800239952009,
+    "entropy_sigma": 5.331148534013861,
+    "score_p": 0.0001999600079984003,
+    "score_sigma": 9.897764286047641
+  }
+}

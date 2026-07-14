@@ -1,0 +1,40 @@
+======================================================================
+PPMI ENTROPY DIVERGENCE ANALYSIS — H1
+======================================================================
+  Group A: 'GBA1-PD' (n=128)
+  Group B: 'Sporadic PD' (n=1076)
+  Time points: 16 (0-108 months)
+  Permutations: 5000
+
+DOMAIN-LEVEL RESULTS:
+--------------------------------------------------
+  MDS-UPDRS Part I:
+    IAD observed:  18.5613
+    IAD null:      8.3609 +/- 3.7098
+    p = 0.0142 *
+    Peak timing diff: 24 months
+
+  MDS-UPDRS Part II:
+    IAD observed:  23.3570
+    IAD null:      9.0496 +/- 3.8769
+    p = 0.0034 **
+    Peak timing diff: 12 months
+
+  MDS-UPDRS Part III:
+    IAD observed:  6.9112
+    IAD null:      6.1249 +/- 2.6161
+    p = 0.3387
+    Peak timing diff: 24 months
+
+  MDS-UPDRS Part IV:
+    IAD observed:  46.9025
+    IAD null:      13.1784 +/- 4.8700
+    p = 0.0002 ***
+    Peak timing diff: 12 months
+
+OMNIBUS:
+--------------------------------------------------
+  Total IAD:     95.7320
+  Total null:    36.7138 +/- 11.0705
+  p = 0.0006 ***
+  sigma from null: 5.3
