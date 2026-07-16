@@ -6,6 +6,10 @@ The analysis accompanying the preprint compares GBA1-associated PD against
 sporadic PD, stratifying the diagnosed PD cohort by GBA1 carrier status. This is
 the `h1` analysis in the commands below.
 
+This repo Is supplement to the preprint 10.5281/zenodo.21384100 (DOI)
+
+Repo DOI: 10.5281/zenodo.21387252
+
 ## Requirements
 
 - Python 3.9+
